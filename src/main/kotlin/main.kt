@@ -224,6 +224,8 @@ object NoteService {
     fun clear() {
         notes = mutableListOf()
         comments = mutableListOf()
+        nid = 1
+        cid = 1
     }
 
     fun add(
